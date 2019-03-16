@@ -1,10 +1,15 @@
 ---
-title: "Lab 5 HW"
+title: "HW5"
 author: "Lauren Alimento"
-date: "2/15/2019"
-  word_document: default
-  html_document: default
+date: "3/16/2019"
+output: 
+  html_document: 
+    keep_md: yes
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ## Instructions
 Answer the following questions and complete the exercises in RMarkdown. Please embed all of your code, keep track of your versions using git, and push your final work to our [GitHub repository](https://github.com/FRS417-DataScienceBiologists). I will randomly select a few examples of student work at the start of each session to use as examples so be sure that your code is working to the best of your ability.
@@ -36,6 +41,7 @@ life_history_na <-
   na_if("-999")
 life_history_na
 ```
+
 
 4. Where are the NA's? This is important to keep in mind as you build plots.
 ```{r}
